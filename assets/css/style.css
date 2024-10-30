@@ -1,0 +1,57 @@
+html,
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header #logo {
+  width: 15%;
+}
+
+header div {
+  text-align: center;
+}
+
+header p {
+  border-top: 2px solid #ffd877;
+  background-color: #fdfbf1;
+  padding: 1.3em;
+  color: #004d4c;
+}
+
+main {
+  width: 50%;
+  margin: 4em auto 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+#product {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 8px #dbdfe2;
+}
+
+#font {
+  color: #999999;
+  text-align: center;
+}
+
+section article {
+  border-left: 2px solid #ffd877;
+  padding-left: 1em;
+  margin-top: 2em;
+}
+
+section article p {
+  margin: 0;
+}
+
+article p:first-of-type {
+  color: #b5460f;
+}
+
+article p a {
+  color: #107777;
+}
