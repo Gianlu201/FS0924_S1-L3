@@ -52,6 +52,20 @@ article p:first-of-type {
   color: #b5460f;
 }
 
-article p a {
+a:link,
+a:visited {
   color: #107777;
+}
+
+section:not(:first-of-type) {
+  margin-top: 3em;
+}
+
+section h2 {
+  border-bottom: 1px solid #C4F3F2;
+  padding-bottom: 0.5em;
+}
+
+ul li {
+  line-height: 2em;
 }
