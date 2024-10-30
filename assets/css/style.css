@@ -27,13 +27,19 @@ h1 {
   text-align: center;
 }
 
+figure {
+  width: 100%;
+  margin: 0;
+}
+
 #product {
   width: 100%;
   border-radius: 10px;
   box-shadow: 5px 5px 8px #dbdfe2;
 }
 
-#font {
+figure figcaption {
+  margin-top: 1em;
   color: #999999;
   text-align: center;
 }
